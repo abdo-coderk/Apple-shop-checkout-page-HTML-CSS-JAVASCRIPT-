@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <!--Main Template Framework Fille-->
+        <link rel="stylesheet" href="Css/framework.css">
+        <!--Main Template Css Fille-->
+        <link rel="stylesheet" href="Css/style.css">
+        <!--Render All Elements Normally-->
+        <link rel="stylesheet" href="Css/Normalize.css">
+        <!--Font Awsome library-->
+        <link rel="stylesheet" href="Css/all.min.css">
+        <!--Work Sans From Google Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Apple Shop Checkout</title>
+    </head>
+    <body>
+        <!--Start Parent page-->
+        <div class="parent-page" id="parent-page">
+            <div class=" backfunction d-flex" id="backfunction">
+                <i class="fa-solid fa-circle-check"></i>
+                <p class="message m-0 p-0">Your information is correct.</p>
+            </div>
+            <!--Start Header-->
+            <header class="header d-flex a-items j-center" id="header">
+                <h1 class="title m-0" id="title">Checkout</h1>
+                <p class="items m-0" id="items">3 items</p>
+            </header>
+            <!--End Header-->
+            <!--Start Container-->
+            <div class="container d-grid">
+                <!--Start Section of Products Info-->
+                <div class="products-info" id="products-info">
+                    <!--Start Product 1-->
+                    <div class="product d-flex" id="product-1">
+                        <div class="content" id="content-product-1">
+                            <div class="image b-radius" id="image-1">
+                                <img src="Images/Gold@2x.png" alt="product-1">
+                            </div>
+                            <div class="details-product d-flex s-between" id="details-product-1">
+                                <div class="info" id="info">
+                                    <h2 class="name" id="name-1">iPhone 12 Pro</h2>
+                                    <p class="type" id="type-1">Golden</p>
+                                    <p class="quantity m-0" id="quantity-1">x 1</p>
+                                </div>
+                                <div class="pricing" id="pricing-1">
+                                    <p class="price" id="price-1">$999.00</p>
+                                    <p class="remove m-0" id="remove-1">Remove</p>
+                                    <i id="close-1" class="fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Product 1-->
+                    <!--Start Product 2-->
+                    <div class="product d-flex" id="product-2">
+                        <div class="content" id="content-product-2">
+                            <div class="image b-radius" id="image-2">
+                                <img src="Images/Apple-watchx2.png" alt="product-2">
+                            </div>
+                            <div class="details-product d-flex s-between" id="details-product-2">
+                                <div class="info" id="info-2">
+                                    <h2 class="name" id="name-2">Appel Watch</h2>
+                                    <p class="type" id="type-2">Blue</p>
+                                    <p class="quantity m-0" id="quantity-2">x 1</p>
+                                </div>
+                                <div class="pricing" id="pricing-2">
+                                    <p class="price" id="price-2">$399.00</p>
+                                    <p class="remove m-0" id="remove-2">Remove</p>
+                                    <i id="close-2" class="fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Product 2-->
+                    <!--Start Product 3-->
+                    <div class="product d-flex" id="product-3">
+                        <div class="content" id="content-product-3">
+                            <div class="image b-radius" id="image-3">
+                                <img class="imac" src="Images/iMac@2x.png" alt="product-3">
+                            </div>
+                            <div class="details-product d-flex s-between" id="details-product-3">
+                                <div class="info" id="info-3">
+                                    <h2 class="name" id="name-3">iMac</h2>
+                                    <p class="type" id="type-3">Green</p>
+                                    <p class="quantity m-0" id="quantity-3">x 1</p>
+                                </div>
+                                <div class="pricing" id="pricing-3">
+                                    <p class="price" id="price-3">$1199.00</p>
+                                    <p class="remove m-0" id="remove-3">Remove</p>
+                                    <i id="close-3" class="fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Product 3-->
+                    <!--Start Coupon Code-->
+                    <div class="coupon-code" id="coupon-code">
+                        <input type="text-couponcode" class="couponcode" name="coupon-code" id="couponcode" placeholder="Enter coupon code">
+                        <button type="submit" class="apply-coupon" id="applycoupon">Apply Coupon</button>
+                    </div>
+                    <p class="entercouponcode" id="entercouponcode">Enter Coupon Code</p>
+                    <!-- End Coupon Code-->
+                     <!--Start Section of pricing-->
+                     <div class="costs" id="costs">
+                        <div class="subtotal d-flex s-between a-items" id="subtotal">
+                            <h2 class="subtitle m-0" id="subtitle">Sub total</h2>
+                            <p class="subcost m-0" id="subcost">$2597.00</p>
+                        </div>
+                        <div class="tax d-flex s-between a-items" id="tax">
+                            <h2 class="taxtitle m-0" id="taxtitle">Tax</h2>
+                            <p class="taxcost" id="taxcost">$623.28</p>
+                        </div>
+                        <div class="total d-flex s-between a-items" id="total">
+                            <h2 class="totaltitle m-0" id="totaltitle">Total</h2>
+                            <p class="totalcost m-0" id="totalcost">$3220.28</p>
+                        </div>
+                     </div>
+                     <!--End Section of pricing-->
+                </div>
+                <!--End Section of Products Info-->
+                <!--Start Section of Contact Info-->
+                <div class="contact-info" id="contact-info">
+                    <div class="con-content" id="con-content">
+                        <h1 class="cont-title">Contact Information</h1>
+                        <!--Start Personnel Information-->
+                        <div class="username" id="username">
+                            <h2 class="title">First &amp; Last name</h2>
+                            <input type="name" class="name" id="name" placeholder="Enter first & last name">
+                            <p class="enternameinfo m-0" id="enternameinfo"></p>
+                        </div>
+                        <!--End Personnel Information-->
+                        <!--Start Email Information-->
+                        <div class="useremail" id="useremail">
+                            <h2 class="title">Email Address</h2>
+                            <input class="email" type="email" name="email" id="email" placeholder="Enter email address">
+                            <p class="enteremail m-0" id="enteremail"></p>
+                        </div>
+                        <!--End Email Information-->
+                        <!--Start Information Country and Postal Code-->
+                        <div class="position-info" id="position-info">
+                            <!--Start Country Information-->
+                            <div class="countryinfo" id="countryinfo">
+                                <h2 class="title">Country</h2>
+                                <input type="text" class="country" id="country" placeholder="Enter country">
+                                <i id="down" class="fa-solid fa-angle-down"></i>
+                                <p class="entercountry m-0" id="entercountry"></p>
+                            <div class="links">
+                                <ul class="list" id="lsit">
+                                    <li id="maroc"><a href="#Morocco">Morocco</a></li>
+                                    <li id="usa"><a href="#Usa">United States</a></li>
+                                    <li id="canada" ><a href="#Canada">Canada</a></li>
+                                    <li id="france" ><a href="#France">French</a></li>
+                                    <li id="espagne" ><a href="#espagne">Espagne</a></li>
+                                    <li id="suisse" ><a href="#suisse">Suisse</a></li>
+                                    <li id="portugal" ><a href="#portugal">Portugal</a></li>
+                                    <li id="algérie" ><a href="#algérie">Algérie</a></li>
+                                    <li id="tunisie" ><a href="#tunisie">Tunisie</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                            <!--End Country Information-->
+                            <!--Start Postal Code-->
+                            <div class="postalcode-info" id="postalcode-info">
+                                <h2 class="title">Postal Code</h2>
+                                <input type="text" class="postalcode" id="postalcode" placeholder="Enter postal code">
+                                <p class="enterpostal m-0" id="enterpostal"></p>
+                            </div>
+                            <!--End Postal Code-->
+                        </div>
+                        <!--Start Information Country and Postal Code-->
+                        <button type="submit" class="continue" id="continue">Continue</button>
+                    </div>
+                </div>
+                <!--End Section of Contact Info-->
+            </div>
+            <!--End Contanier-->
+        </div>
+        <!--End parent page-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

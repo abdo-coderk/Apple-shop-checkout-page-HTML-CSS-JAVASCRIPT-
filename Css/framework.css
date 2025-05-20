@@ -1,0 +1,38 @@
+/** 
+** Start Flex and Grid
+* TODO: For Clean Code   
+*/
+.d-flex {
+    display: flex;
+}
+.f-warp {
+    flex-wrap: wrap;
+}
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+}
+.s-between {
+    justify-content: space-between;
+}
+.j-center {
+    justify-content: center;
+}
+.a-items {
+    align-items: center;
+}
+/** End Flex and Grid*/
+/** Start Padding and Margin*/
+.m-0 {
+    margin: 0;
+}
+.p-0 {
+    padding: 0;
+}
+.b-radius {
+    border-radius: 10px;
+}
+.list-s {
+    list-style: none;
+}
+/** End Padding and Margin*/
